@@ -17,7 +17,7 @@ export default function InputModal  ({ isOpen, onClose }){
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
-        <h2 className="text-2xl font-bold text-center mb-4">Add Income/Expense</h2>
+        <h2 className="text-2xl font-bold text-center mb-4">Add  IIncome/Expense</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="income" className="block text-sm font-medium text-gray-700">Income</label>
